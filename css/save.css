@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: .16rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    background: url("http://qiniu.hduhelp.com/cet/img/bg.png") no-repeat;
+    background-size: 100%;
+    font-weight: bold;
+	position: relative;
+	max-height: 100%;
+}
+header{
+	margin-top: 1rem;
+	margin-left: 1.19rem;
+}
+header img {
+	width: 9rem;
+}
+article{
+	margin-top: 0.5rem;
+	margin-left: 2.3rem;
+}
+article img{
+	width:7rem;
+}
+footer{
+	margin-top: 1.75rem;
+	margin-left:2.45rem;
+}
+footer img{
+	width:7rem;
+}
+#ename{
+	margin-top: 1rem;
+	margin-left: 1.75rem;
+	position: relative;
+}
+#ename img{
+	width:0.7rem;
+	position: absolute;
+	top:0.27rem;
+	left: 0.33rem;
+}
+#tip{
+	position: absolute;
+	left:3rem;
+	top:8.45rem;
+	display: none;
+}
+#tip img{
+	width:5.5rem;
+}
+#name{
+	width: 8rem;
+	height: 1.3rem;
+	color: rgb(164,164,164);
+	font-size: 0.56rem;
+	text-indent: 1.2rem;
+}
+#enum{
+	position:relative;
+	margin-top: 0.5rem;
+	margin-left: 1.75rem;
+}
+#enum img{
+	width:0.9rem;
+	position: absolute;
+	top: 0.23rem;
+	left: 0.25rem;
+}
+#number{
+	width: 8rem;
+	height: 1.3rem;
+	color: rgb(164,164,164);
+	font-size: 0.56rem;
+	text-indent: 1.2rem;
+}
+.save{
+	cursor: pointer;
+	margin-top: 1rem;
+	margin-left: 1.75rem;
+	width:8rem;
+}
+.search{
+	margin-top: 0.5rem;
+	margin-left:1.75rem;
+	width:8rem;
+}
+input{
+	border:1rem;
+	border-color: cornflowerblue;
+}

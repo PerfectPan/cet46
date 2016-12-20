@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>保存四六级准考证</title>
+   	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <script src="http://qiniu.hduhelp.com/cet/js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="http://qiniu.hduhelp.com/cet/css/save.css?v=2" />
+        <!--<link rel="stylesheet" href="css/save.css" />-->
+	</head>
+	<body>
+		<input type="hidden" id="openId" value="{$openid}" />
+		<header>
+			<img src="http://qiniu.hduhelp.com/cet/img/title.png" alt="title" />
+		</header>
+		<article>
+			<img src="http://qiniu.hduhelp.com/cet/img/intro.png" alt="intro" />
+		</article>
+		<!--输入框-->
+		<div id="ename">
+			<input type="text" name="name" id="name" value="" placeholder="姓名" required>
+			<img src="http://qiniu.hduhelp.com/cet/img/nameicon.png" alt="name" />
+		</div>
+		<div id="enum">
+			<input type="text" name="ticket" id="number" value="" placeholder="准考证号（15位）" required>
+			<img src="http://qiniu.hduhelp.com/cet/img/ticketicon.png" alt="number" />
+		</div>
+		<div id="tip">
+			<img src="http://qiniu.hduhelp.com/cet/img/tip.png" alt="tip" />
+		</div>
+		<!--功能实现-->
+		<div id="save">
+			<img src="http://qiniu.hduhelp.com/cet/img/save.png" alt="save" class="save"/>
+		</div>
+		<div id="search">
+			<img src="http://qiniu.hduhelp.com/cet/img/search.png" alt="search" class="search"/>
+		</div>
+		<footer>
+			<img src="http://qiniu.hduhelp.com/cet/img/copyright.png" alt="copyright" />
+		</footer>
+		<script type="text/javascript" src="http://qiniu.hduhelp.com/cet/js/save.js?v=2"></script>
+		<!--<script type="text/javascript" src="js/save3.0.js"></script>-->
+	</body>
+</html>
